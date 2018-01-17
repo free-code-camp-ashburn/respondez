@@ -1,0 +1,11 @@
+/* For Left Column */
+.myProfile {
+  padding-top: 5%;
+}
+
+.myProfile img {
+  display: inline-block;
+  border-radius: 50%;
+  width: 25%;
+  border: 2px solid gold;
+}

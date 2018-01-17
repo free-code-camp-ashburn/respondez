@@ -1,0 +1,28 @@
+{
+  "name": "rsvp-app",
+  "homepage": "https://free-code-camp-ashburn.github.io/respondez/",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "firebase": "^4.7.0",
+    "gh-pages": "^1.1.0",
+    "moment": "^2.20.1",
+    "prop-types": "^15.6.0",
+    "re-base": "^3.2.0",
+    "react": "^16.2.0",
+    "react-confirm-alert": "^1.0.8",
+    "react-datetime": "^2.11.1",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.0.17",
+    "react-spinners": "^0.2.5",
+    "update-immutable": "^1.4.0"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

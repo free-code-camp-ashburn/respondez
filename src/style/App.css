@@ -1,0 +1,117 @@
+/* For Defaults and Globals */
+@font-face {
+  font-family: 'decodividers';
+  src: url('decodividers.ttf');
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background: url(../data/ornate-black.jpg) repeat-y;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 1em;
+  min-height: 100%;
+  text-align: center;
+  color: gold;
+  font-size: 1.5em;
+  font-family: 'Bellefair';
+}
+
+.left, .center, .right { 
+  margin: 0 auto; 
+  padding: 0 1%;
+  width: 20%;
+  vertical-align: top;
+  display: inline-block;
+  word-wrap: break-word;
+}
+
+.center {
+  padding: 0 1%;
+  width: 40%;
+  border-right: 1px solid gray;
+  border-left: 1px solid gray;
+}
+
+button {
+  margin: 0 auto;
+  padding: 1%;
+  text-align: center;
+  font-size: 0.75em;
+}
+
+a {
+  color: inherit; 
+  text-decoration: inherit;
+}
+
+.header1 {
+  margin: 0;
+  padding: 0;
+  color: gold;
+  font-size: 4em;
+  font-family: 'Rochester', cursive;
+  text-shadow: 3px 3px dimgray;
+  
+}
+.header2 {
+  margin: 0 auto;
+  padding: 0;
+  color: gold;
+  font-size: 2em;
+  font-family: 'Rochester', cursive;
+  text-shadow: 1px 1px black;
+}
+
+.header3 {
+  margin: 0 auto;
+  padding: 0;
+  color: goldenrod;
+  font-size: 1em;
+  font-family: 'Rochester', cursive;
+  text-shadow: 1px 1px black;
+}
+
+.hr1 {
+  margin: 1.5% auto;
+  max-width: 90%;
+  overflow: hidden;
+  color: dimgray;
+  font-size: 3rem;
+  font-family: 'decodividers';
+}
+
+.hr2 {
+  margin: 0 auto;
+  max-width: 90%;
+  overflow: hidden;
+  color: dimgray;
+  font-size: 2rem;
+  font-family: 'decodividers';
+}
+
+.hr3 {
+  margin: 0 auto;
+  padding: 5%;
+  max-width: 90%;
+  color: dimgray;
+  font-size: 2rem;
+  font-family: 'decodividers';
+  overflow: hidden;
+}
+
+.white {
+  color: white;
+}
+
+.gold {
+  color: gold;
+}
+
+.underline {
+  text-decoration: underline;
+}
